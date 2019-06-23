@@ -1,0 +1,19 @@
+{
+    "name": "silverstripe/upgrade",
+    "description": "Upgrade frome 3.6 to 4.4",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Priscilla Yap",
+            "email": "priscilla@priscillayap.com"
+        }
+    ],
+    "require": {
+        "silverstripe/recipe-cms": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SilverStripe\\Lessons\\": "src/"
+        }
+    }
+}

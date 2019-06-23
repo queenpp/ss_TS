@@ -1,0 +1,1304 @@
+
+/*//MEDIA QUERIES*/
+
+@media only screen and (max-width: 320px) {
+    #bannerImage{
+      /*top:0!important;*/
+      height: 198px;
+    }
+}
+@media only screen and (min-width: 320px) {
+   .card{
+    min-height: 385px;
+  }
+  .brand_img {
+    height: 93px;
+  }
+  .navbar-brand {
+    width: 180px;
+    height: 103px;
+  }
+
+   #bannerImage{
+      /*top:0!important;*/
+      height: 198px;
+    }
+
+  #PromoVideoThumbnail {
+    width:100%;
+    height:192px;
+  }
+
+  #innerPromoVidThumbnail {
+    width:125%;
+    left: -66px;
+  }
+
+  #playingButton{
+      left: 124px;
+      top: 99px;
+  }
+
+  .staticBgImg{
+    /*height:230px;*/
+  }
+
+  #homePageCaption{
+    font-size:26px;
+    padding:0 10px 10px 10px;
+  }
+
+  .dropbtn, .nav-link  {
+    height:42px;
+  }
+
+  #myModal2 .modal-dialog {
+    width: auto;
+}
+
+ 
+
+  .card-body{
+    position: absolute;
+    bottom: 0;
+  }
+
+  /*Certifications Page*/
+
+  .Cert_content {
+     padding: 0 15px;
+  }
+  .cert-logos {
+    width:100%;
+
+  }
+  #certificatelist {
+    margin-left: 0;
+  }
+
+  /*plant and equipment page*/
+  .more-services-button {
+    /*bottom: 8%;*/
+    margin: 13px 16%;
+  }
+
+  /*contactPage*/
+  .detailedContactForm{
+    height: 480px;
+    padding: 0;
+    margin-bottom: 138px;
+}
+#Form_ContactUs, #Form_ServiceEnquiryForm{
+  width:96%;
+  margin:auto auto;
+}
+.contactContents {
+  margin-bottom: 67px;
+  }
+#testimonialCarousel .carousel-inner{
+  min-height: 120px;
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 375px) {
+
+  #playingButton{
+    left:147px;
+  }
+  #PromoVideoThumbnail {
+    height:212.8px;
+  }
+  .card {
+    min-height: 410px;
+  }
+
+  /*plant and equipment*/
+
+  .more-services-button {
+    /*bottom: 8%;*/
+    margin: 7px 25%;
+  }
+
+}
+
+@media only screen and (min-width: 414px) {
+
+  .card {
+    min-height: 427px;
+  }
+
+
+  }
+@media only screen and (min-width: 425px) {
+
+  .navbar-brand {
+    width: 180px;
+    height: 96px;
+  }
+  .staticBgImg{
+    /*height:250px;*/
+  }
+  #PromoVideoThumbnail {
+     /*width:64%;*/
+    /*height: 243.67px;*/
+  }
+
+   /*#PromoVideoThumbnail {*/
+   
+    /*height:192px;*/
+  /*}*/
+ /* #innerPromoVidThumbnail {
+    top: -47px;
+  }*/
+  .card {
+       min-height: 432px;
+  }
+  .more-services-button {
+
+    margin: 22px 26%;
+}
+
+}
+@media only screen and (max-width: 567px) {
+  .BannerIcons{
+        width: 100%;
+    }
+   
+}
+
+@media only screen and (max-width: 600px) {
+     
+
+      #videoThumbnail iframe{
+        height:192px;
+    }
+
+    
+    .paraOne, .careersPage-title, .partnershipContent{
+       padding: 0 15px;
+
+    }
+
+      #innerPromoVidThumbnail {
+    /*top: -26px;*/
+    width: 125%;
+  }
+
+   
+
+
+
+    
+
+/*    .subscribe_form_style{
+        width:90%;
+    }
+    .subscribe_btn{
+        width:81%;
+    }*/
+  
+
+    }
+@media only screen and (min-width: 667px) {
+
+  .BannerIcons{
+    width:100%;
+  }
+
+  #PromoVideoThumbnail {
+    /* height: 243.67px; */
+}
+#playingButton {
+    left: 93px;
+}
+ .card-body p{
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+
+}
+
+    
+
+@media only screen and (max-width: 768px) {
+
+
+   /*----  Header ------*/
+  .phone{
+    font-size: 1.5rem;
+  }
+
+    .dropdown-content {
+          position: relative !important;
+          top: -3px;
+          left: 0 !important;
+    }
+
+    .dropbtn::before {
+        left: 48% !important;
+        top: 55px;
+    }
+      .dropdown-content::before{
+        left:46%;
+    }
+    /*.brand_img{
+        padding:15px;
+    }*/
+    .search-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #SearchForm_SearchForm_Search{
+        width:300px;
+        border: 1px solid #80C324;
+        position: relative;
+        padding: 14px;
+
+    }
+
+    /*.navbar-brand{
+      width:180px;
+      height: 118px;
+    }*/
+    .navbar{
+      min-height:100px;
+    }
+    
+    .card-service-img{
+      height: 247px;
+    }
+/*
+     .navbrand_img{
+        width:250px;
+        height:129px;
+    }*/
+
+    /*.brand_img{
+      height:80px;
+      margin: 20px 0;
+    }*/
+
+    .navbar-nav a{
+        margin-left: 0;
+    }
+
+   
+
+   /*----  Carousel ------*/
+
+/*    .carousel-item{
+        height: 16rem;
+    }*/
+  /*  .carousel-item > img{
+         height: 18rem;
+    }*/
+    .second-slide{
+        width: 100%;
+    }
+
+    #banner_title_style{
+        margin-left: 15px;
+    }
+  
+
+
+  /*----  homepageBanner------*/
+
+ /*   .BannerIcons{
+        width: 330px;
+    }*/
+/*    .card-body{
+        position: relative;
+         margin-top: 10px;
+    }*/
+
+
+    .content_style, .contact-content-div{
+        padding:0 16px;
+    }
+
+    .categories  li {
+        margin-left: 0;
+    }
+    .categories  a {
+        margin-left: 0;
+    }
+/*    .filter-button{
+        width:100%;
+
+    }
+    .filter-button a{
+        text-align: center;
+
+    }*/
+    .card-body-services{
+        position: relative;
+        margin-top: 10px;
+        bottom: 0;
+    }
+  /*  .more-services-button{
+        bottom:8%;
+        margin: 0px 24%;
+    }*/
+    /*----- About > VideoLibrary -----*/
+    .watch_button{
+        margin:0px 22%;
+
+    }
+    .card-effect-video{
+        /*height:338px;*/
+    }
+    .modal-content{
+      /*width:350px;*/
+    }
+
+    .modal-body iframe{
+        /*height:163px;*/
+    }
+    
+   #videoRes{
+      width:360px;
+      margin: auto;
+    }
+
+     .floating-social{
+        display:none;
+    }
+
+
+    /*----  footer ------*/
+
+    .card_footer_title_nav::before{
+      left:48%
+    }
+    .subscribe_form_style{
+        width:90%;
+    }
+    .subscribe_btn{
+        width:81%;
+    }
+
+    .social-network{
+      display: flex;
+      min-height: 190px;
+      justify-content: center;
+      align-items: center;
+    }
+
+}
+@media only screen and (min-width: 768px){
+
+  /*HomePage*/
+  /*HEADER*/
+  .navbar-brand{
+    width:260px;
+    height: 80px;
+  }
+
+  .brand_img{
+    height: 80px;
+  }
+
+  .navbar-toggler{
+    padding:5px;
+  }
+  .nav-link,.dropbtn {
+    height:47px;
+
+  }
+
+  #bannerImage {
+     /*top: 0!important; */
+    /*height: 227px;*/
+    height: 100%;
+}
+  
+
+  .staticMobileBannerImage{
+
+    height:250px;
+    top:-50px;
+  }
+
+  .BannerIcons {
+    width: 100%;
+}
+
+#homeplayingButton{
+       width: 30px;
+    position: absolute;
+    top: -49px;
+    left: 89px;
+
+  }
+  #PromoVideoThumbnail {
+    height: 146px;
+    width: 110%;
+}
+
+#innerPromoVidThumbnail {
+    /*top: -26px;*/
+    /*width: 111%;*/
+}
+#playingButton {
+    left: 86px;
+    top: 78px;
+    width: 37px;
+  }
+
+  #homePageCaption{
+    margin-bottom: 1.1rem;
+    font-size: 26px;
+  }
+
+  .card {
+       min-height: 286px;
+  }
+
+  .card-body p{
+    font-size: 11px;
+    line-height: 15px;
+  }
+   
+/*  .carousel-inner, .carousel-item > img {
+    height:180px;
+  }*/
+
+     .watch_button{
+        /*margin:-27px 20%;*/
+margin: -32px 20%;
+    }
+      .more-services-button{
+        /*margin: 37px 19%;*/
+       /*margin: 18px 5%*/
+        margin: 18px 21%;
+}
+    
+    #videoThumbnail iframe{
+        height:300px;
+    }
+    
+    /*ContentPage such as Partnership career page etc*/
+  .paraOne, .careersPage-title, .partnershipContent {
+    padding: 0 15px;
+  }
+
+  /*certification page*/
+  .cert-logos {
+    /*position: absolute;*/
+     /*width: 44%; */
+    right: 0;
+    top: 550px;
+  }
+  .img-footer img {
+    width:58px;
+  }
+
+  .contactContents {
+    min-height: 320px;
+    margin-bottom:0;
+  }
+  
+
+}
+
+
+
+@media only screen and (min-width: 960px) {
+  /* .brand_img{
+        width: 127%;
+    }
+
+
+
+       /* .img-footer img{
+            width: 40px;
+        }
+*/
+        .headerContainer{
+            /*width: 100%;*/
+            margin-left: 0;
+        }
+    /* .second-slide{
+         /*left:-300px!important;*/
+        /*max-width:100%*/
+        /*height:100%;*/
+    /*}*/
+
+    /*#myCarousel{
+        min-width: 960px;
+    }*/
+ /*   .card-body{
+        bottom:40px;
+    }*/
+ /*   .cert-logos{
+        top:600px;
+        right:140px;
+
+   }*/
+   .more-services-button{
+       /*bottom:15%;*/
+        margin: 0 8%;
+    
+    }
+    .card-body-services{
+        bottom:9%;
+    }
+}
+
+#imageCarousel{
+    margin-top: 2rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#imageHover .card-service-img{
+    opacity: 1;
+     /*display: block;*/
+  width: 100%;
+  /*height: auto;*/
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.hoverImg{
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30px!important;
+  color:#003C24;
+}
+#imageHover .card-service-img:hover{
+  
+     opacity: 0.5;
+      transform: scale(1);
+
+}
+#imageHover:hover .hoverImg{
+    opacity: 1;
+  
+}
+
+#imageModal .carousel-control-next, .carousel-control-prev{
+    height:inherit;
+}
+
+.modal-dialog{
+     min-width: 70%;
+    /*max-width: 50%;*/
+    /*max-height: 50%;*/
+}
+.modal-header{
+    border:none;
+    /*justify-content: center;*/
+}
+
+.home-modal-header{
+  min-height: 38px;
+  justify-content: flex-end;
+}
+
+
+@media only screen and (max-width: 1024px){
+  #videoThumbnail {
+          width: 330px;
+  }
+ /* #playingButton {
+    left:121px;
+  }*/
+
+  .modal-body iframe{
+    width:100%;
+  }
+
+   #bannerImage{
+      top:0!important;
+      /*height: 260px;*/
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+  /*----- Header -----*/
+    .phone{
+      font-size: 23px;
+    }
+    .nav-item a{
+      font-size:18px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-left: 0;
+      margin-left: 28px;
+    }
+    .brand_img, .navbar-brand {
+      height: 92px;
+    }
+    #search-icon {
+      font-size: 18px;
+        padding: 10px;
+    }
+
+    .dropdown-content #Contact > dropdown-content::before{
+        left:40%;
+    }
+
+    #banner_title_style{
+      margin-left:20px;
+    }
+
+
+
+
+    /*----- Homepage -----*/
+
+    .carousel-item {
+      height: 240px;
+    }
+    
+    .carousel-item > img {
+      height: 240px;
+    } .carousel-inner {
+      min-height: 274px;
+    }
+    .floating-social {
+      /*top: 233px;*/
+    }
+    .floating-social .fa{
+      width:45px;
+      height:45px;
+      /*top:195px;*/
+      padding: 15px;
+       
+    }
+    .floating-pointer::before {
+      left: 9px;
+      top: 146px;
+    }
+    #playingButton {
+    left: 120px;
+    top: 105px;
+    width: 50px;
+}
+
+    #myCarousel{
+      margin-bottom: 35px;
+    }
+    #homePageCaption{
+      font-size: 1.9rem;
+    }
+    .BannerIcons{
+        width: 95%;
+    }
+
+    .modal {
+      /*top:25%;*/
+    }
+
+    #homeplayingButton{
+    position: relative;
+    margin: auto auto;
+    padding-top: 120px;
+    z-index: 99999;
+    opacity: 0.4;
+    transition: 0.3s;
+    width: 55px;
+    top: -13px;
+    left:  -28px;
+
+    }
+
+    #innerPromoVidThumbnail{
+      /*top: -33px;*/
+      width:100%;
+    }
+    #PromoVideoThumbnail {
+      width: 345px;
+      height: 193px;
+      left: 5px;
+    }
+
+    .card-body p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .card {
+      height: 359px;
+    }
+
+    
+    /*----- About>People-----*/
+
+    .content_style{
+      margin: 0px 15px 15px 21px;
+    }
+    .services-title-pos{
+    font-size: 16px;
+  }
+    
+    /*----- About>Certification-----*/
+   .img-footer img {
+    width: 70px;
+    }
+    .cert-logos {
+    position: absolute;
+    width: 25%;
+    right: 49px;
+    top: 510px;
+
+}
+
+    /*----- HolderPage -----*/
+
+    .bg {
+      height:228px;
+    }
+
+     .more-services-button{
+           margin: 23px 7%;
+    
+    }
+    .card-body-services{
+         /*bottom: 6%;*/
+    }
+    
+    .card-service-img{
+        height:164.7px;
+    }
+
+   .career-button{
+       margin: 6px 7%!important;
+    }
+
+    #bannerImage {
+     top: 0!important; 
+  }
+
+    /*----- About > VideoLibrary -----*/
+    #videoThumbnail iframe{
+        height:160px;
+    }
+    .card-effect-video{
+      height:300px;
+    }
+    .watch_button {
+      bottom:15%;
+    }
+
+
+
+    /*----- Newsfeed -----*/
+    .card-effect{
+      /*min-height:380px;*/
+    }
+    .videos .watch_button{
+       
+       margin: -37px 7%;
+
+    }
+
+
+#videoThumbnail {
+    width: 217px;
+        height: 165px;
+  }
+   /* .projects .more-services-button{
+      bottom:6%;
+      margin: 0 7%;
+    }*/
+
+
+    /*servicesPage*/
+    .imageEffect > img{
+
+
+  height:250px
+}
+.imageEffect-about > img{
+  height:350px;
+}
+/*contactPage*/
+.mapContainer {
+    /*margin-top: -100px;*/
+}
+
+#testimonialCarousel .carousel-item{
+  height:80px;
+}
+   
+  /* Footer */
+    .subscribe_btn{
+    width: 102%;
+    }
+    .img-footer2 img{
+      width:43px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1025px) {
+
+ /*----- About>People -----*/
+/*  .content_style{
+    margin: 0 ;
+  }*/
+
+  .services-title-pos{
+    font-size: 16px;
+  }
+
+ /*----- HomePage -----*/
+  .card-body p {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+/*------ Floating social icons -----*/
+  .floating-social{
+        left:0;
+        top: 274px;
+    }
+
+  .card-body{
+    bottom:10px;
+  }
+  /*----- HolderPage -----*/
+/*
+  .more-services-button{
+    bottom:15%;
+    margin:36px 7%;
+    
+  }*/
+
+   /*----- Footer -----*/
+
+   .footer-ul li > a {
+    font-size: 14px;
+   }
+/*  .img-footer img{
+    width: 55px;
+  } */
+
+   /*----- About>Certifications -----*/ 
+/*  .cert-logos{
+     
+    position: absolute;
+    top:600px;
+    left:650px;
+  }*/
+     
+
+}
+
+@media only screen and (min-width: 1200px) {
+  /*HomePage*/
+
+  /*  .col-lg-4, .homeLinks{
+      padding:0;
+    }*/
+
+     #PromoVideoThumbnail{
+    /*width:397px;*/
+    height:243px;
+  }
+
+    #innerPromoVidThumbnail{
+      width:125%;
+    }
+
+    .card {
+    height: 380px;
+}
+
+/*----- About > Certifications -----*/
+.cert-logos{
+     top: 487px;
+         width: 24%;
+  }
+
+   /*----- About > VideoLibrary -----*/
+  /* .col-lg-4, .homeLinks{
+    padding: 0 15px;
+   }
+   #videoThumbnail iframe{
+        height:196px;
+    }
+    .card-effect-video{
+      height:330px;
+    }
+    .watch_button{
+      bottom: 3%;
+      margin:0px 21%;
+
+    }*/
+
+      /*----- Newsfeed -----*/
+/*    .videos .card-effect{
+      height:362px;
+    }
+    .videos .watch_button{
+       bottom:17%;
+        margin:0px 14%;
+
+    }
+
+    .videos .card-effect-video{
+      height: 381px;
+    }
+      .projects .more-services-button{
+      bottom: 17%;
+      margin: 0 15%;
+    }*/
+   
+}
+    /*ipad pro horizontal */
+@media only screen and (min-width: 1366px) {
+
+  .floating-social{
+    width:45px;
+    height:45px;
+    top:275px;
+  }
+  #PromoVideoThumbnail{
+    width:397px;
+    height:222px;
+  }
+  #innerPromoVidThumbnail{
+    top:0px;
+  }
+
+    .more-services-button{
+          margin: 0px 16%!important;
+          bottom:2%;
+    
+    }
+
+    .newsfeed .more-services-button {
+      margin: 0px 16%;
+      bottom: 35px;
+
+    }
+
+    .card-body-services{
+        /*bottom:7%;*/
+    }
+   
+
+    .card-service-img{
+        height:164.7px;
+    }
+
+    .partnershipLogos{
+    width: 70%;
+  }
+
+    /*----- About > VideoLibrary -----*/
+    #videoThumbnail iframe{
+        height:196px;
+    }
+    .card-effect-video{
+      min-height:450px
+    }
+
+
+    .cert-logos{
+     top: 487px;
+     width: 24%;
+  }
+
+
+}
+
+@media only screen and (min-width: 1392px) {
+  .cert-logos{
+     top: 487px;
+     width: 23%;
+  }
+
+}
+
+
+
+
+    @media only screen and (min-width: 1440px) {
+
+      .phone {
+        font-size: 37px;
+      }
+
+      .nav-item a {
+        font-size: 21px;
+      }
+      .navbar-brand{
+        width:270px;
+      }
+      .navbar-brand, .brand_img{
+
+        height: 94px;;
+      }
+
+      #search-icon {
+    
+        padding: 12px;
+      }
+      #homePageCaption {
+        margin-bottom: 1.3rem;
+      }
+
+      #PromoVideoThumbnail {
+
+        width: 333.3px;
+        height: 228px;
+      }
+
+      #innerPromoVidThumbnail {
+        /*top: -38px;*/
+      }
+
+      #playingButton {
+        width: 50px;
+        left: 100px;
+        top: 61px;
+
+      }
+
+      #homeplayingButton {
+        left: -4px;
+      }
+      .card {
+        height: 426px;
+      }
+      .card .footer-card{
+         height: 260px;
+      }
+      .carousel-inner {
+        min-height: 384.75;
+      }
+
+      .carousel-item > img {
+        height: 337.5px;
+      }
+
+      #homePageCaption {
+        margin-bottom: 1.3rem;
+      }
+      .floating-social {
+        top: 344px;
+      }
+
+      .card-body p {
+        font-size: 19px;
+        line-height: 22px;
+      }
+      .dropdown-content{
+        top:47px;
+      }
+
+      /*holder page*/
+
+      .bg {
+      height:300px;
+      }
+      #bannerImage{
+        top: -142px;
+        height: 412px;
+      }
+
+    /*certification page*/
+
+    .img-footer img {
+      width: 77px;
+    }
+   .cert-logos {
+     position: absolute;
+     width: 21%;
+    right: 220px;
+     top: 520px;
+}
+
+    
+
+    .more-services-button {
+    margin: 0px 16%!important;
+    bottom: 3%;
+    }
+
+    .newsletter .more-services-button{
+       margin: 0px 16%!important;
+    bottom: 9%;
+    }
+
+    .projects .more-services-button{
+       margin: 0px 16%!important;
+    bottom: 9%;
+    }
+
+    /*Newsfeed page*/
+    .videos .watch_button {
+    margin: -25px 14%;
+}
+
+
+
+#videoThumbnail {
+    width: 255px;
+  }
+
+    }
+
+
+@media only screen and (min-width: 1724px) {
+  .cert-logos {
+    
+    width: 20%;
+    right: 250px;
+   
+  }
+
+}
+
+@media only screen and (min-width: 1810px) {
+     .cert-logos {
+        width: 19%;
+    right: 300px;
+  }
+}
+
+@media only screen and (min-width: 1907px) {
+     .cert-logos {
+        width: 18%;
+    right: 300px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+
+  .carousel-inner {
+        min-height: 450px;
+       
+      }
+
+      .carousel-item > img {
+        height:450px;
+      }
+      .floating-social{
+        top:472px;
+      }
+
+      #bannerImage{
+        top:-34px!important;
+      }
+
+   
+
+     /*holderpage*/
+     .bg {
+      height:378px;
+    }
+    .more-services-button{
+       /*bottom:16%;*/
+        margin: 16px 15%;
+    
+    }
+    .card-body-services{
+        /*bottom:15%;*/
+    }
+
+    /*certificationPage*/
+
+    .img-footer2 img {
+      width: 70px
+    }
+    .cert-logos {
+          width: 18%;
+    right: 353px;
+  
+    top: 600px;
+}
+    
+
+
+
+}
+
+@media only screen and (min-width: 2013px) {
+    .cert-logos {
+          width: 17%;
+    right: 353px;
+  
+    top: 600px;
+}
+  }
+@media only screen and (min-width: 2131px) {
+    .cert-logos {
+          width: 16%;
+    right: 460px;
+  
+    top: 600px;
+}
+  }
+
+  @media only screen and (min-width: 2415px) {
+
+    .cert-logos {
+         width: 14%;
+    right: 600px;
+    top: 600px;
+}
+  }
+
+@media only screen and (min-width: 2560px) {
+
+  .carousel-inner {
+        /*max-height: 600px;*/
+      }
+
+      .carousel-item > img {
+        height:600px;
+      }
+
+  .floating-social{
+    width:55px;
+    height:55px;
+    top: 643px
+  }
+     #search-icon {
+    
+        padding: 13px;
+      }
+
+
+      /*holderpage*/
+      
+      #bannerImage{
+      height:736px!important;
+      }
+
+  /*certification page*/
+  .img-footer img {
+    width: 89px;
+  }
+
+  .cert-logos{
+    right:  647px;
+    position: absolute;
+    top: 609px;
+    width:13%;
+  }
+}
+
